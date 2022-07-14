@@ -1,0 +1,795 @@
+# Grace project file
+#
+@version 50122
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 8 to "Courier", "Courier"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 12 to "Dingbats-Regular", "Dingbats-Regular"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 17 to "Hershey-Gothic-English-Regular", "Hershey-Gothic-English-Regular"
+@map font 18 to "Hershey-Gothic-German-Regular", "Hershey-Gothic-German-Regular"
+@map font 19 to "Hershey-Gothic-Italian-Regular", "Hershey-Gothic-Italian-Regular"
+@map font 20 to "Hershey-Plain-Duplex-Italic-Regular", "Hershey-Plain-Duplex-Italic-Regular"
+@map font 21 to "Hershey-Plain-Duplex-Regular", "Hershey-Plain-Duplex-Regular"
+@map font 22 to "Hershey-Plain-Triplex-Italic-Regular", "Hershey-Plain-Triplex-Italic-Regular"
+@map font 23 to "Hershey-Plain-Triplex-Regular", "Hershey-Plain-Triplex-Regular"
+@map font 24 to "Hershey-Script-Complex-Regular", "Hershey-Script-Complex-Regular"
+@map font 25 to "Hershey-Script-Simplex-Regular", "Hershey-Script-Simplex-Regular"
+@map font 26 to "NimbusMonoL-Bold", "NimbusMonoL-Bold"
+@map font 27 to "NimbusMonoL-BoldOblique", "NimbusMonoL-BoldOblique"
+@map font 28 to "NimbusMonoL-Regular", "NimbusMonoL-Regular"
+@map font 29 to "NimbusMonoL-RegularOblique", "NimbusMonoL-RegularOblique"
+@map font 30 to "NimbusRomanNo9L-Medium", "NimbusRomanNo9L-Medium"
+@map font 31 to "NimbusRomanNo9L-MediumItalic", "NimbusRomanNo9L-MediumItalic"
+@map font 32 to "NimbusRomanNo9L-Regular", "NimbusRomanNo9L-Regular"
+@map font 33 to "NimbusRomanNo9L-RegularItalic", "NimbusRomanNo9L-RegularItalic"
+@map font 34 to "NimbusSansL-Bold", "NimbusSansL-Bold"
+@map font 35 to "NimbusSansL-BoldCondensed", "NimbusSansL-BoldCondensed"
+@map font 36 to "NimbusSansL-BoldCondensedItalic", "NimbusSansL-BoldCondensedItalic"
+@map font 37 to "NimbusSansL-BoldItalic", "NimbusSansL-BoldItalic"
+@map font 38 to "NimbusSansL-Regular", "NimbusSansL-Regular"
+@map font 39 to "NimbusSansL-RegularCondensed", "NimbusSansL-RegularCondensed"
+@map font 40 to "NimbusSansL-RegularCondensedItalic", "NimbusSansL-RegularCondensedItalic"
+@map font 41 to "NimbusSansL-RegularItalic", "NimbusSansL-RegularItalic"
+@map font 42 to "StandardSymbolsL-Regular", "StandardSymbolsL-Regular"
+@map font 75 to "Symbol", "Symbol"
+@map font 44 to "Symbol-Regular", "Symbol-Regular"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 49 to "URWBookmanL-DemiBold", "URWBookmanL-DemiBold"
+@map font 50 to "URWBookmanL-DemiBoldItalic", "URWBookmanL-DemiBoldItalic"
+@map font 51 to "URWBookmanL-Light", "URWBookmanL-Light"
+@map font 52 to "URWBookmanL-LightItalic", "URWBookmanL-LightItalic"
+@map font 53 to "URWChanceryL-MediumItalic", "URWChanceryL-MediumItalic"
+@map font 54 to "URWGothicL-Book", "URWGothicL-Book"
+@map font 55 to "URWGothicL-BookOblique", "URWGothicL-BookOblique"
+@map font 56 to "URWGothicL-Demi", "URWGothicL-Demi"
+@map font 57 to "URWGothicL-DemiOblique", "URWGothicL-DemiOblique"
+@map font 58 to "URWPalladioL-Bold", "URWPalladioL-Bold"
+@map font 59 to "URWPalladioL-BoldItalic", "URWPalladioL-BoldItalic"
+@map font 60 to "URWPalladioL-Italic", "URWPalladioL-Italic"
+@map font 61 to "URWPalladioL-Roman", "URWPalladioL-Roman"
+@map font 62 to "Utopia-Bold", "Utopia-Bold"
+@map font 63 to "Utopia-BoldItalic", "Utopia-BoldItalic"
+@map font 64 to "Utopia-Italic", "Utopia-Italic"
+@map font 65 to "Utopia-Regular", "Utopia-Regular"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@map color 16 to (21, 21, 21), "gray1"
+@map color 17 to (42, 42, 42), "gray2"
+@map color 18 to (63, 63, 63), "gray3"
+@map color 19 to (84, 84, 84), "gray4"
+@map color 20 to (105, 105, 105), "gray5"
+@map color 21 to (126, 126, 126), "gray6"
+@map color 22 to (147, 147, 147), "gray7"
+@map color 23 to (168, 168, 168), "gray8"
+@map color 24 to (189, 189, 189), "gray9"
+@map color 25 to (210, 210, 210), "gray10"
+@map color 26 to (231, 231, 231), "gray11"
+@map color 27 to (234, 234, 234), "grey12"
+@map color 28 to (255, 234, 234), "lightred"
+@map color 29 to (234, 234, 255), "lightblue"
+@map color 30 to (234, 255, 234), "lightgreen"
+@map color 31 to (246, 238, 255), "lightindigo"
+@map color 32 to (255, 234, 255), "lightmagenta"
+@map color 33 to (255, 247, 234), "lightorange"
+@map color 34 to (234, 255, 234), "lightgreen4"
+@map color 35 to (206, 190, 201), "lightmaroon"
+@map color 36 to (20, 0, 0), "red1"
+@map color 37 to (40, 0, 0), "red2"
+@map color 38 to (60, 0, 0), "red3"
+@map color 39 to (80, 0, 0), "red4"
+@map color 40 to (100, 0, 0), "red5"
+@map color 41 to (120, 0, 0), "red6"
+@map color 42 to (140, 0, 0), "red7"
+@map color 43 to (160, 0, 0), "red8"
+@map color 44 to (180, 0, 0), "red9"
+@map color 45 to (200, 0, 0), "red10"
+@map color 46 to (220, 0, 0), "red11"
+@map color 47 to (240, 0, 0), "red12"
+@map color 48 to (0, 20, 0), "green1"
+@map color 49 to (0, 40, 0), "green2"
+@map color 50 to (0, 60, 0), "green3"
+@map color 51 to (0, 80, 0), "green4"
+@map color 52 to (0, 100, 0), "green5"
+@map color 53 to (0, 120, 0), "green6"
+@map color 54 to (0, 140, 0), "green7"
+@map color 55 to (0, 160, 0), "green8"
+@map color 56 to (0, 180, 0), "green9"
+@map color 57 to (0, 200, 0), "green10"
+@map color 58 to (0, 220, 0), "green11"
+@map color 59 to (0, 240, 0), "green12"
+@map color 60 to (0, 20, 20), "blue1"
+@map color 61 to (0, 40, 40), "blue2"
+@map color 62 to (0, 60, 60), "blue3"
+@map color 63 to (0, 80, 80), "blue4"
+@map color 64 to (0, 100, 100), "blue5"
+@map color 65 to (0, 120, 120), "blue6"
+@map color 66 to (0, 140, 140), "blue7"
+@map color 67 to (0, 160, 160), "blue8"
+@map color 68 to (0, 180, 180), "blue9"
+@map color 69 to (0, 200, 200), "blue10"
+@map color 70 to (0, 220, 220), "blue11"
+@map color 71 to (0, 240, 240), "blue12"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Wed May 22 11:37:39 2013"
+@with line
+@    line on
+@    line loctype view
+@    line 0.605664488017, 0.364923747276, 0.655838779956, 0.364923747276
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 4
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 1.06100217865, 0.721132897603, 1.11117647059, 0.721132897603
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 4
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.605664488017, 0.493464052287, 0.655838779956, 0.493464052287
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 1
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.604575163399, 0.776688453159, 0.654749455338, 0.776688453159
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 10
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.409586056645, 0.765795206971, 0.459760348584, 0.765795206971
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 4
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.057734204793, 0.445533769063, 0.107908496732, 0.445533769063
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 1
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.114379084967, 0.445533769063, 0.164553376906, 0.445533769063
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 2
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.171023965142, 0.445533769063, 0.221198257081, 0.445533769063
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 15
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.435729847495, 0.287581699346, 0.485904139434, 0.287581699346
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 10
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.283224400871, 0.445533769063, 0.33339869281, 0.445533769063
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 10
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.373638344227, 0.470588235294, 0.423812636166, 0.470588235294
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 2
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.437908496732, 0.470588235294, 0.488082788671, 0.470588235294
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 15
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.227668845316, 0.445533769063, 0.277843137255, 0.445533769063
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 4
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.371459694989, 0.287581699346, 0.421633986928, 0.287581699346
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 1
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.569716775599, 0.255991285403, 0.619891067538, 0.255991285403
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 2
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.63834422658, 0.255991285403, 0.688518518519, 0.255991285403
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 15
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.77559912854, 0.616557734204, 0.825773420479, 0.616557734204
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 1
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.840958605664, 0.616557734204, 0.891132897603, 0.616557734204
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 2
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.906318082789, 0.616557734204, 0.956492374728, 0.616557734204
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 15
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.803921568627, 0.400871459695, 0.854095860566, 0.400871459695
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 4
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.881263616558, 0.401960784313, 0.931437908497, 0.401960784313
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 10
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 1.10130718954, 0.210239651416, 1.15148148148, 0.210239651416
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 2
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 1.13834422658, 0.722222222222, 1.18851851852, 0.722222222222
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 10
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 1.16557734205, 0.210239651416, 1.21575163399, 0.210239651416
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 15
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 1.03594771242, 0.210239651416, 1.08612200436, 0.210239651416
+@    line linewidth 3.0
+@    line linestyle 1
+@    line color 1
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.996732026144, 0.798474945534, 0.996732026144, 0.152505446623
+@    line linewidth 2.0
+@    line linestyle 2
+@    line color 1
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.749455337691, 0.798474945534, 0.749455337691, 0.152505446623
+@    line linewidth 2.0
+@    line linestyle 2
+@    line color 1
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.516339869281, 0.797385620915, 0.516339869281, 0.151416122004
+@    line linewidth 2.0
+@    line linestyle 2
+@    line color 1
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with line
+@    line on
+@    line loctype view
+@    line 0.350762527233, 0.798474945534, 0.350762527233, 0.152505446623
+@    line linewidth 2.0
+@    line linestyle 2
+@    line color 1
+@    line arrow 0
+@    line arrow type 0
+@    line arrow length 1.000000
+@    line arrow layout 1.000000, 1.000000
+@line def
+@with string
+@    string on
+@    string loctype view
+@    string 0.064270152505, 0.461873638344
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.250000
+@    string def "xy"
+@with string
+@    string on
+@    string loctype view
+@    string 0.12091503268, 0.462962962963
+@    string color 2
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.250000
+@    string def "yz"
+@with string
+@    string on
+@    string loctype view
+@    string 0.176470588236, 0.461873638344
+@    string color 15
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.250000
+@    string def "zx"
+@with string
+@    string on
+@    string loctype view
+@    string 0.230936819172, 0.461873638344
+@    string color 4
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.250000
+@    string def "z\S2"
+@with string
+@    string on
+@    string loctype view
+@    string 0.270152505447, 0.467320261438
+@    string color 10
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.250000
+@    string def "x\S2\N-y\S2"
+@with string
+@    string on
+@    string loctype view
+@    string 0.106753812636, 0.112200435729
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.250000
+@    string def "Spherical"
+@with string
+@    string on
+@    string loctype view
+@    string 0.380174291939, 0.114379084968
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.250000
+@    string def "Linear"
+@with string
+@    string on
+@    string loctype view
+@    string 0.530501089325, 0.114379084968
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.250000
+@    string def "Square Planner"
+@with string
+@    string on
+@    string loctype view
+@    string 0.79302832244, 0.113289760348
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.250000
+@    string def "Tetrahedtral"
+@with string
+@    string on
+@    string loctype view
+@    string 1.0522875817, 0.113289760348
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.250000
+@    string def "Octahedral"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 0, 0, 0.3, 1
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.050000, 0.150000, 1.244118, 0.800000
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar off
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 2.500000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick off
+@    xaxis  tick major 0.05
+@    xaxis  tick minor ticks 4
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel off
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 2.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar off
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label ""
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 2.500000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick off
+@    yaxis  tick major 0.2
+@    yaxis  tick minor ticks 4
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel off
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 2.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.9, 0.82
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.5
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.5
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
