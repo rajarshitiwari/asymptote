@@ -1,2 +1,6 @@
+# log files
 *.log
+# fortran files
 fort.*
+# eps files
+*.eps
